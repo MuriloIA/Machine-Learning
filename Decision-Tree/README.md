@@ -18,7 +18,7 @@ Consideremos uma tabela de dados, com dados de entrada (Atributo A e Atributo B)
 
 Uma árvore de decisão possível para resolver esse problema de classificação é selecionar o Atributo A para o nó raiz e o Atributo B para os nós filhos ou nós internos.
 
-<center><img src="img/decision_tree.png"></center>
+<center><img src="img/decision_tree.png" width=70%></center>
 
 Podemos nos questionar sobre o porque do *Atributo A* e não o *Atributo B* foi escolhido para o nó raiz? E quantas árvores distintas poderiamos ter construir? Essas perguntas são fundamentais para a construção de árvores de decisão.
 
