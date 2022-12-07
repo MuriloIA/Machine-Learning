@@ -33,3 +33,8 @@ Podemos formular três perguntas principais que determinam a construção de ár
 Precisamos então de algum método para sabermos por qual atributo começamos e por qual sequência colocamos os demais atributos. Temos várias técnicas para isso, as principais são:
 
 <center><img src="img/metodos.png"></center>
+
+## Processo de Aprendizagem dos Algoritmos de Árvore de Decisão 🦇
+
+Usando uma amostra de observações como ponto de partida um algoritmo de árvore de decisão identifica as regras que geraram as classes de saída em problemas de classificação ou então valores numéricos para problemas de regressão. E divide a matriz de entrada em partições menores até que o processo assione uma regra de finalização.
+
