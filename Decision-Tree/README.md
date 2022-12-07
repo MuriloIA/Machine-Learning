@@ -38,3 +38,6 @@ Precisamos então de algum método para sabermos por qual atributo começamos e 
 
 Usando uma amostra de observações como ponto de partida um algoritmo de árvore de decisão identifica as regras que geraram as classes de saída em problemas de classificação ou então valores numéricos para problemas de regressão. E divide a matriz de entrada em partições menores até que o processo assione uma regra de finalização.
 
+<center><img src="img/estrutura_a.png"></center>
+
+Basicamente o algoritmo de árvore de decisão realiza uma busca dentre todas as formas possíveis de dividir a amostra de treinamento e decidir qual divisão maximixa as medidas estatísticas das partições resultantes. E esta busca pelas regras e divisão das partições e feito através de uma característica dos algoritmos de árvore de decisão chamada *Greedy Search* (Busca Gananciosa ou Gulosa). O algoritmo procura maximizar o passo atual sem olhar para o passo seguinte, a fim de alcançar uma ótimização global.
